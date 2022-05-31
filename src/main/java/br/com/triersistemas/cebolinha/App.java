@@ -12,13 +12,24 @@ public class App {
         Fornecedor novoFornecedor = new Fornecedor();
 
         System.out.printf("""
-                        Nome fornecedor: %s
-                        Cpf: %s"
+                        Nome farmaceutico: %s
+                        Cpf: %s
                         Oferta do dia: %s
                         """,
                 novoFarmaceutico.getNome(),
                 novoFarmaceutico.getDocumento(),
                 novoFarmaceutico.getOfertaDoDia());
+        
+        System.out.println("");
+        
+        System.out.printf("""
+                      Nome fornecedor: %s
+                      Cnpj: %s
+                      Produto: %s
+                      """,
+                novoFornecedor.getNome(),
+                novoFornecedor.getDocumento(),
+                novoFornecedor.getProduto());
 
     }
 }
